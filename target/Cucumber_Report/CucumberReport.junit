@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="1.276" tests="12" skipped="0" failures="0" errors="0">
+<testcase classname="User Login" name="Login with valid credentials" time="0.103">
+<system-out><![CDATA[
+Given User navigate to login page...........................................passed
+When User enter valid email address "clintonraj1924@gmail.com"..............passed
+And Enter valid password "catest@123".......................................passed
+And Click the login button..................................................passed
+Then User should login successfully.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid credentials - #1.1" time="0.036">
+<system-out><![CDATA[
+Given User navigate to login page...........................................passed
+When User enter invalid email address "clintonraj19244@gmail.com"...........passed
+And Enter invalid password "catest@1234"....................................passed
+And Click the login button..................................................passed
+Then User should get a proper warning message...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid credentials - #1.2" time="0.028">
+<system-out><![CDATA[
+Given User navigate to login page...........................................passed
+When User enter invalid email address "clintonraj14@gmail.com"..............passed
+And Enter invalid password "catest@1234"....................................passed
+And Click the login button..................................................passed
+Then User should get a proper warning message...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid credentials - #1.3" time="0.043">
+<system-out><![CDATA[
+Given User navigate to login page...........................................passed
+When User enter invalid email address "clintonr19244@gmail.com".............passed
+And Enter invalid password "catest1234".....................................passed
+And Click the login button..................................................passed
+Then User should get a proper warning message...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with valid password and invalid username" time="0.032">
+<system-out><![CDATA[
+Given User navigate to login page...........................................passed
+When User enter invalid email address "clintonraj19244@gmail.com"...........passed
+And Enter valid password "catest@123".......................................passed
+And Click the login button..................................................passed
+Then User should get a proper warning message...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Login" name="Login with invalid password and valid username" time="0.013">
+<system-out><![CDATA[
+Given User navigate to login page...........................................passed
+When User enter valid email address "clintonraj1924@gmail.com"..............passed
+And Enter invalid password "catest@1234"....................................passed
+And Click the login button..................................................passed
+Then User should get a proper warning message...............................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register with mandatory fields" time="0.044">
+<system-out><![CDATA[
+Given Users navigate to register account page...............................passed
+When User enter below details into the fields...............................passed
+And Select Pivacy Policy fields.............................................passed
+And Click on Continue button................................................passed
+Then Account should be create successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register with all fields" time="0.023">
+<system-out><![CDATA[
+Given Users navigate to register account page...............................passed
+When User enter below details into the fields...............................passed
+And Select yes on NewsLetter fields.........................................passed
+And Select Pivacy Policy fields.............................................passed
+And Click on Continue button................................................passed
+Then Account should be create successfully..................................passed
+]]></system-out>
+</testcase>
+<testcase classname="User Registration" name="Register  without providing any fields" time="0.012">
+<system-out><![CDATA[
+Given Users navigate to register account page...............................passed
+When User dont enter any fields.............................................passed
+And Click on Continue button................................................passed
+Then Warning message should dispaly for the mandatory fields................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="Search for the valid product" time="0.029">
+<system-out><![CDATA[
+Given User open the application.............................................passed
+When User enter the valid product on search feilds..........................passed
+And User click on search button.............................................passed
+Then Valid product should get displayed in search results...................passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="Search for a non-existing product" time="0.018">
+<system-out><![CDATA[
+Given User open the application.............................................passed
+When User enter the non valid product on search feilds......................passed
+And User click on search button.............................................passed
+Then Proper text informing the user about the product matching should be displayed.passed
+]]></system-out>
+</testcase>
+<testcase classname="Search functionality" name="Search without providing any products" time="0.014">
+<system-out><![CDATA[
+Given User open the application.............................................passed
+When User dont enter any product on search feilds...........................passed
+And User click on search button.............................................passed
+Then Proper text informing the user about the product matching should be displayed.passed
+]]></system-out>
+</testcase>
+</testsuite>
