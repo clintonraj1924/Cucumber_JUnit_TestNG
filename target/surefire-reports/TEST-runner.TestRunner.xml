@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="1.782" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="runner.TestRunner" time="1.197" tests="1" errors="0" skipped="0" failures="1">
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.class.path" value="E:\GIT\org\target\test-classes;E:\GIT\org\target\classes;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Clinton Raj\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Clinton Raj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="E:\GIT\org\target\test-classes;E:\GIT\org\target\classes;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-testng\7.10.1\cucumber-testng-7.10.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Clinton Raj\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Clinton Raj\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Clinton Raj\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Clinton Raj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -15,9 +15,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\Clinton Raj\AppData\Local\Temp\surefire8675425386381216795\surefirebooter-20241122133458460_3.jar C:\Users\Clinton Raj\AppData\Local\Temp\surefire8675425386381216795 2024-11-22T13-34-58_175-jvmRun1 surefire-20241122133458460_1tmp surefire_0-20241122133458460_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Clinton Raj\AppData\Local\Temp\surefire4216135550673640863\surefirebooter-20241128131832702_3.jar C:\Users\Clinton Raj\AppData\Local\Temp\surefire4216135550673640863 2024-11-28T13-18-30_572-jvmRun1 surefire-20241128131832702_1tmp surefire_0-20241128131832702_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="E:\GIT\org\target\test-classes;E:\GIT\org\target\classes;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Clinton Raj\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Clinton Raj\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="E:\GIT\org\target\test-classes;E:\GIT\org\target\classes;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-testng\7.10.1\cucumber-testng-7.10.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\Clinton Raj\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Clinton Raj\.m2\repository\org\testng\testng\7.10.1\testng-7.10.1.jar;C:\Users\Clinton Raj\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Clinton Raj\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Clinton Raj\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Clinton Raj"/>
     <property name="user.language" value="en"/>
@@ -26,11 +26,12 @@
     <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
     <property name="file.separator" value="\"/>
     <property name="basedir" value="E:\GIT\org"/>
+    <property name="style.color" value="always"/>
     <property name="java.vm.compressedOopsMode" value="32-bit"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\Clinton Raj\AppData\Local\Temp\surefire8675425386381216795\surefirebooter-20241122133458460_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Clinton Raj\AppData\Local\Temp\surefire4216135550673640863\surefirebooter-20241128131832702_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23.0.1+11-39"/>
@@ -45,7 +46,6 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\CLINTO~1\AppData\Local\Temp\"/>
     <property name="java.version" value="23.0.1"/>
-    <property name="cucumber.filter.tags" value="@login"/>
     <property name="user.dir" value="E:\GIT\org"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
@@ -59,116 +59,45 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
   </properties>
-  <testcase name="Login with valid credentials" classname="User Login" time="0.247">
-    <system-out><![CDATA[
-@all @login @smoke @validCredentias @regression
-Scenario: Login with valid credentials                           &amp#27;[90m# src/test/resources/features/Login.feature:9&amp#27;[0m
->>Browser got opened
->>>Before Every Step Hook
->>User got navigate to login page$
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Login.user_navigate_to_login_page()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->>User entered valid email address: "clintonraj1924@gmail.com"
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enter valid email address &amp#27;[0m&amp#27;[32m&amp#27;[1m"clintonraj1924@gmail.com"&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enter_valid_email_address(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->>User has entered valid password:"catest@123"
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter valid password &amp#27;[0m&amp#27;[32m&amp#27;[1m"catest@123"&amp#27;[0m                          &amp#27;[90m# stepdefinitions.Login.enter_valid_password(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->>User has click login btn
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick the login button&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.Login.click_the_login_button()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->> User login in sucessfully
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should login successfully&amp#27;[0m                            &amp#27;[90m# stepdefinitions.Login.user_should_login_successfully()&amp#27;[0m
-After every step hook<<<
-Browser got closed<<
-]]></system-out>
-  </testcase>
-  <testcase name="Login with invalid credentials #1" classname="User Login" time="0.069">
-    <system-out><![CDATA[
-@all @login @smoke @inValidCredentias @rwgression
-Scenario Outline: Login with invalid credentials                    &amp#27;[90m# src/test/resources/features/Login.feature:25&amp#27;[0m
->>Browser got opened
->>>Before Every Step Hook
->>User got navigate to login page$
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                                 &amp#27;[90m# stepdefinitions.Login.user_navigate_to_login_page()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->> User has entered invalid email addtess
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enter invalid email address "&amp#27;[0m&amp#27;[32m&amp#27;[1mclintonraj19244@gmail.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enter_invalid_email_address(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
-User entered invalid PW : 
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid password "&amp#27;[0m&amp#27;[32m&amp#27;[1mcatest@1234&amp#27;[0m&amp#27;[32m"&amp#27;[0m                          &amp#27;[90m# stepdefinitions.Login.enter_invalid_password(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->>User has click login btn
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick the login button&amp#27;[0m                                        &amp#27;[90m# stepdefinitions.Login.click_the_login_button()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
-User got proper warning message
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                     &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
-After every step hook<<<
-Browser got closed<<
-]]></system-out>
-  </testcase>
-  <testcase name="Login with invalid credentials #2" classname="User Login" time="0.047">
-    <system-out><![CDATA[
-@all @login @smoke @inValidCredentias @rwgression
-Scenario Outline: Login with invalid credentials                 &amp#27;[90m# src/test/resources/features/Login.feature:26&amp#27;[0m
->>Browser got opened
->>>Before Every Step Hook
->>User got navigate to login page$
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                              &amp#27;[90m# stepdefinitions.Login.user_navigate_to_login_page()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->> User has entered invalid email addtess
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enter invalid email address "&amp#27;[0m&amp#27;[32m&amp#27;[1mclintonraj14@gmail.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enter_invalid_email_address(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
-User entered invalid PW : 
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid password "&amp#27;[0m&amp#27;[32m&amp#27;[1mcatest@1234&amp#27;[0m&amp#27;[32m"&amp#27;[0m                       &amp#27;[90m# stepdefinitions.Login.enter_invalid_password(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->>User has click login btn
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick the login button&amp#27;[0m                                     &amp#27;[90m# stepdefinitions.Login.click_the_login_button()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
-User got proper warning message
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                  &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
-After every step hook<<<
-Browser got closed<<
-]]></system-out>
-  </testcase>
-  <testcase name="Login with invalid credentials #3" classname="User Login" time="0.041">
-    <system-out><![CDATA[
-@all @login @smoke @inValidCredentias @rwgression
-Scenario Outline: Login with invalid credentials                  &amp#27;[90m# src/test/resources/features/Login.feature:27&amp#27;[0m
->>Browser got opened
->>>Before Every Step Hook
->>User got navigate to login page$
-  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser navigate to login page&amp#27;[0m                               &amp#27;[90m# stepdefinitions.Login.user_navigate_to_login_page()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->> User has entered invalid email addtess
-  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser enter invalid email address "&amp#27;[0m&amp#27;[32m&amp#27;[1mclintonr19244@gmail.com&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# stepdefinitions.Login.user_enter_invalid_email_address(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
-User entered invalid PW : 
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mEnter invalid password "&amp#27;[0m&amp#27;[32m&amp#27;[1mcatest1234&amp#27;[0m&amp#27;[32m"&amp#27;[0m                         &amp#27;[90m# stepdefinitions.Login.enter_invalid_password(java.lang.String)&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
->>User has click login btn
-  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mClick the login button&amp#27;[0m                                      &amp#27;[90m# stepdefinitions.Login.click_the_login_button()&amp#27;[0m
-After every step hook<<<
->>>Before Every Step Hook
-User got proper warning message
-  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mUser should get a proper warning message&amp#27;[0m                   &amp#27;[90m# stepdefinitions.Login.user_should_get_a_proper_warning_message()&amp#27;[0m
-After every step hook<<<
-Browser got closed<<
-]]></system-out>
+  <testcase name="setUpClass[org.testng.TestRunner@71e9ddb4](0)" classname="runner.TestRunner" time="0.945">
+    <failure message="Receiver class io.cucumber.testng.TestNGCucumberOptionsProvider$TestNGCucumberOptions does not define or inherit an implementation of the resolved method &apos;abstract java.lang.Class uuidGenerator()&apos; of interface io.cucumber.core.options.CucumberOptionsAnnotationParser$CucumberOptions." type="java.lang.AbstractMethodError"><![CDATA[java.lang.AbstractMethodError: Receiver class io.cucumber.testng.TestNGCucumberOptionsProvider$TestNGCucumberOptions does not define or inherit an implementation of the resolved method 'abstract java.lang.Class uuidGenerator()' of interface io.cucumber.core.options.CucumberOptionsAnnotationParser$CucumberOptions.
+	at io.cucumber.core.options.CucumberOptionsAnnotationParser.addUuidGenerator(CucumberOptionsAnnotationParser.java:148)
+	at io.cucumber.core.options.CucumberOptionsAnnotationParser.parse(CucumberOptionsAnnotationParser.java:46)
+	at io.cucumber.testng.TestNGCucumberRunner.<init>(TestNGCucumberRunner.java:85)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.setUpClass(AbstractTestNGCucumberTests.java:27)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:188)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeSingleClass(TestNGDirectoryTestSuite.java:102)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:91)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
   </testcase>
 </testsuite>
